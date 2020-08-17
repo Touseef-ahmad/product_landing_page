@@ -3,22 +3,59 @@
       background-color: lightblue;
     }
   }
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f7f7f7;
+}
 #header {
     width: 100%;
-    background-color:#4267B2;
+    background-color:#232323;
     padding: 30px;
 }
 #header-img {
-    display: block;
     width: 100px;
     height: auto;
-    margin: auto;
     border-radius: 50%;
 }
+#car-img {
+    width: 60%;
+    height: auto;
+}
+#logo-div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#company-name {
+    color: #acacac;
+    margin-left: 20px ;
+    align-self: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bolder;
+}
 #footer {
-    width:100%;
+    display: flex;
+    justify-content: center;
     padding: 50px;
-    background-color: #4267B2;
+    background-color: #232323;
+    color: #acacac;
+}
+#footer-links {
+    width: 35%;
+    line-height: 30px;
+    margin-left: 50px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #acacac;    
 }
 #product-main {
     display: flex;
@@ -30,12 +67,13 @@
 }
 #nav-bar {
     display: flex;
-    justify-content: center;   
+    justify-content: center;  
 }   
 .nav-link{
     margin: 10px 30px 0px 30px;
     text-decoration: none;
-    background-color: lavender;
+    color: #acacac;
+    background-color: #232323;
     padding: 10px;
 }
 .nav-link:hover {
@@ -43,18 +81,21 @@
 }
 
 #form {
+    text-align: center;
     padding: 10px;
-    margin: 10px;
     width: 25%;
-    border : 1px solid black;
+    box-shadow: 5px 10px 20px grey;
+
 }
 #form > input[type=email] {
     width: 100%;
     margin: 0 0 20px 0;
-    box-sizing: border-box;
     padding: 20px;
 }
 #form > input[type=submit] {
     margin: auto;
     padding: 10px 20px 10px 20px;
+}
+a:hover {
+    opacity: 0.7;
 }

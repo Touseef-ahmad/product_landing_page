@@ -10,7 +10,15 @@
 
 <body>
     <header id="header">
-        <img src="https://www.logaster.com/blog/wp-content/uploads/2018/05/LogoMakr.png" alt="company logo" id="header-img">
+        <!-- <img src="https://www.logaster.com/blog/wp-content/uploads/2018/05/LogoMakr.png" alt="company logo" id="header-img">
+            -->
+        <div id="logo-div">
+            <div id="img-div">
+                <img src="https://i.pinimg.com/originals/7b/80/b3/7b80b3276866f2258b570aa6c07e54ca.jpg"
+                    alt="company logo" id="header-img">
+            </div>
+            <span id="company-name">Making the world a better place.</span>
+        </div>
         <nav id="nav-bar">
             <a href="#video" class="nav-link">Go to video</a>
             <a href="#form" class="nav-link">Go to form</a>
@@ -19,24 +27,39 @@
     </header>
     <main id="main">
         <div id="product-main">
-            <iframe id="video" width="640" height="360" src="https://www.youtube.com/embed/06QYfogCm0g" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <img id="car-img" src="https://www.clipartkey.com/mpngs/m/303-3033082_tesla-car-png-tesla-david-dobrik-model.png" alt="">
             <p id="product-description">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
-                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-                Aldus PageMaker including versions of Lorem Ipsum.
+                The Tesla Model X is a mid-size all-electric luxury SUV made by Tesla, Inc. The vehicle is notable in
+                that it uses falcon-wing doors for passenger access.
+
+                The Model X was developed from the full-sized sedan platform of the Tesla Model S. The Model X has an
+                EPA size class as an SUV, and shares ~30% of its content with the Model S, half of the originally
+                planned ~60%, and weighs about 10 percent more. Both the Model X and Model S are being produced at the
+                Tesla Factory in Fremont, California. The prototype was unveiled at Tesla's design studios in Hawthorne,
+                California on February 9, 2012. First deliveries of the Model X began in September 2015.
+                After one full year on the market, in 2016, the Model X ranked seventh among the world's best-selling
+                plug-in cars.
+
+                As of February 14, 2020, the Model X is only available as the Long Range Plus with an estimated EPA
+                range of 351 miles (565 km) and the Performance model with an estimated EPA range of 305 miles (491 km).
             </p>
         </div>
+
+    </main>
+    <footer id="footer">
         <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <p>Interested? Let us know by submitting your email.</p>
             <input type="email" name="email" id="email" placeholder="Please enter an email" required>
             <input type="submit" value="Submit" id="submit">
         </form>
-    </main>
-    <footer id="footer">
-        Copyright
+        <div id="footer-links">
+
+            <p>&copy; Copyright</p> <br>
+            <a href="" class="footer-link">Contact Us</a><br>
+            <a href="" class="footer-link">About Us</a><br>
+            <a href="" class="footer-link">Other products</a><br>
+        </div>
+
     </footer>
 </body>
 
